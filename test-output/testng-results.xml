@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T12:26:20 COT" name="Suite" finished-at="2022-03-09T12:26:43 COT" duration-ms="23050">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T12:26:20 COT" name="Test" finished-at="2022-03-09T12:26:43 COT" duration-ms="23050">
+      <class name="com.testNG.EjemploTestNG">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testNG.EjemploTestNG@3aefe5e5]" started-at="2022-03-09T12:26:20 COT" name="beforeClass" finished-at="2022-03-09T12:26:42 COT" duration-ms="22423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./imagenes/logo_periferia.png]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./output/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ZY3225RX8M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7.1.2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.clarocolombia.miclaro.debug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[com.clarocolombia.miclaro.activities.Splash]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Ingresar_Direccion(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testNG.EjemploTestNG@3aefe5e5]" started-at="2022-03-09T12:26:43 COT" name="Ingresar_Direccion" description="CAMBIO DE DIRECCIÓN" data-provider="Tools" finished-at="2022-03-09T12:26:43 COT" duration-ms="6" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pruebitasportal202179@yoggm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Claro1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bogota]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bogota]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[regalo]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[calle 92]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.appium.java_client.screenrecording.CanRecordScreen.startRecordingScreen()" because "this.driver" is null
+at com.testNG.ClaseBaseFinalMobil.iniVideo(ClaseBaseFinalMobil.java:392)
+at com.testNG.EjemploTestNG.Ingresar_Direccion(EjemploTestNG.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ingresar_Direccion -->
+        <test-method signature="Ingresar_Direccion12(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testNG.EjemploTestNG@3aefe5e5]" started-at="2022-03-09T12:26:43 COT" name="Ingresar_Direccion12" description="PAGOS" data-provider="Tools1" finished-at="2022-03-09T12:26:43 COT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pruebitasportal202179@yoggm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Claro1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5409682368847300]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1394]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CristianRamos]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1022394657]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7849232]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Crist@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ingresar_Direccion12 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testNG.EjemploTestNG@3aefe5e5]" started-at="2022-03-09T12:26:43 COT" name="afterClass" finished-at="2022-03-09T12:26:43 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testNG.EjemploTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
